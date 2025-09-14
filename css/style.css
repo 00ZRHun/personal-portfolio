@@ -1102,3 +1102,16 @@ a:focus {
     color: #222222;
 }
 
+ul {
+    padding-left: 15px; /* Adjusts padding to prevent indentation issues */
+}
+
+li {
+    text-align: justify !important;
+}
+
+ul li::marker {
+    content: "● "; /* Changes the bullet to a right double angle quote */
+    font-size: 1.2em; /* Changes the size of the marker */
+}
+
